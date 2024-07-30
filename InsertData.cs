@@ -18,7 +18,7 @@ namespace emp_manegement
 
             con.Open();
             Console.WriteLine("please enter your id");
-            //test
+           
             int id = int.Parse(Console.ReadLine());
 
             Console.WriteLine("please enter your name");
@@ -32,7 +32,7 @@ namespace emp_manegement
 
             Console.WriteLine("please enter your address");
             string address = Console.ReadLine();
-            //ghgh
+           
 
             string sql = "insert into Employee(Emp_id,Name,position,salary,Address) values (@id,@nm,@po,@sa,@ad)";
 
