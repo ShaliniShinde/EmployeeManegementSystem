@@ -27,6 +27,7 @@ namespace emp_manegement
                 string position = reader.GetString(2);
                 string salary = reader.GetString(3);
                 string address = reader.GetString(4);
+                //dfgd
 
                 Console.WriteLine("ID :" + id + " name :" + name + " postion :" + position + " salary :" + salary + " address :" + address);
 
